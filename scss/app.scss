@@ -1,11 +1,16 @@
 $primary: #ff214f;
 $nav-link-padding-y: 0.7rem;
 $nav-link-padding-x: 1.2rem !important;
+$nav-link-color: #fff !important;
 $navbar-padding-y: 1.5rem;
 $nav-link-font-weight: 700;
+$font-family-sans-serif: 'Oswald', sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
-
+nav {
+    background-color: #343a40;
+}
