@@ -11125,4 +11125,10 @@ nav {
   background-color: #343a40;
 }
 
+@media screen and (max-width: 992px) {
+  .compo-nav {
+    width: 25% !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
