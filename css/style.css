@@ -11129,9 +11129,39 @@ nav {
   .compo-nav {
     width: 25% !important;
   }
+
+  .menu .menu-hover {
+    font-size: calc(1.625rem + 4.5vw);
+  }
 }
 .about-us p {
   font-size: 1.1rem !important;
+}
+
+.menu {
+  position: relative;
+  cursor: pointer;
+}
+.menu img {
+  cursor: pointer;
+}
+
+.menu .menu-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+.menu .menu-hover:hover {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
