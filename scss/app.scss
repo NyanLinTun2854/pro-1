@@ -5,6 +5,8 @@ $nav-link-color: #fff !important;
 $navbar-padding-y: 1.5rem;
 $nav-link-font-weight: 700;
 $font-family-sans-serif: 'Oswald', sans-serif;
+// $btn-padding-y-lg: 1.2rem;
+// $btn-padding-x-lg: 1.4rem;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
@@ -61,3 +63,26 @@ nav {
         opacity: 1;
     }
 }
+
+.input-group {
+    input {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+    input:focus {
+        border-color: #ff214f !important;
+    }
+}
+
+::placeholder {
+    color: white !important;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+

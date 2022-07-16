@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg  navbar-light position-fixed w-100">
+  <nav class="navbar navbar-expand-lg  navbar-light position-fixed w-100" style="z-index: 20;">
     <div class="container-fluid">
       <!-- <a class="navbar-brand" href="#">Home</a> -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -224,7 +224,53 @@
 
       </div>
     </div>
-
+    <div class="booking" style="background-image: url(./imgs/book-table-img.jpg);background-position: 100%;height: 500px; background-size: cover;background-attachment: fixed;z-index: 60;">
+      <div style="height: 100%; background-color: rgba(0, 0, 0, 0.3);">
+        <!-- <div class="container-fluid">
+          <div class="row d-flex justify-content-center py-0 py-lg-5">
+            <div class="col-12 col-lg-6 text-center text-white w-100">
+              
+                <div class="display-2 w-100">BOOK A TABLE</div>
+  
+            </div>
+          </div>
+        </div> -->
+        <div class="text-center py-0 py-lg-5 display-1 ">
+          <div class="text-uppercase text-white">
+            Book A table
+          </div>
+        </div>
+        <div class="container-fluid input-group">
+          <div class="row d-flex justify-content-around py-4 g-3 w-100">
+            <div class="col-10 col-lg-3 py-2 py-lg-0 ">
+              <div class="input-group input-group-lg"  >
+                <input type="text" placeholder="EMAIL" class="form-control" style="border-radius: none; border: 2px solid #fff;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+              </div>
+            </div>
+            <div class="col-10 col-lg-3 py-2 py-lg-0">
+              <div class="input-group input-group-lg" style="border-radius: none;" >
+                <input type="number" placeholder="NUMBER OF GUESTS"  class="form-control" style="border-radius: none; border: 2px solid #fff;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+              </div>
+            </div>
+            <div class="col-10 col-lg-3 py-2 py-lg-0">
+              <div class="input-group input-group-lg" style="border-radius: none;" >
+                <input type="time" class="form-control" style="border-radius: none; border: 2px solid #fff;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+              </div>
+            </div>
+            <div class="col-10 col-lg-3 py-2 py-lg-0">
+              <div class="input-group input-group-lg" style="border-radius: none;" >
+                <input type="date" class="form-control" style="border-radius: none; border: 2px solid #fff;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center py-0 py-lg-5 w-100">
+          <div class="input-btn text-center p-0">
+            <a href="" class="btn-lg btn-primary text-white text-decoration-none">FIND TABLE</a>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </html>

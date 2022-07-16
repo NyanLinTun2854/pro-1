@@ -11164,4 +11164,23 @@ nav {
   opacity: 1;
 }
 
+.input-group input {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.input-group input:focus {
+  border-color: #ff214f !important;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+input[type=time]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
 /*# sourceMappingURL=style.css.map */
