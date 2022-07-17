@@ -85,4 +85,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(1);
 }
 
+.event {
+    button {
+        background-color: #343a40 !important;
+        border: none;
+        color: #ff214f;
+        padding: 10px 50px;
+        border-radius: 6px;
+    }
+    button:focus {
+        background-color: #ff214f !important;
+        color: white;
+    }
+}
+
+.events-1 {
+    .card {
+        border-color: #495057;
+        background-color: transparent;
+    }
+}
+
 
